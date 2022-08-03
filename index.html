@@ -15,7 +15,6 @@
   <style>
     .attribution {
       font-size: 11px;
-      text-align: center;
       font-family: Outfit, sans-serif;
     }
 
@@ -26,39 +25,47 @@
     h2 {
       font-family: Outfit, sans-serif;
       font-weight: 700px;
-      text-align: center;
     }
 
     p {
       font-size: 15px;
       font-family: Outfit, sans-serif;
-      text-align: center;
     }
 
-    .qr {}
+    .qr {
+      width: 300px;
+      height: 300px;
+    }
 
     .tile {
       background-color: white;
+      margin-left: auto;
+      margin-right: auto;
+      padding: 16px;
+      width: 30%;
+      box-shadow: 5px 10px hsl(220, 15%, 55%);
     }
 
     body {
-      background-color: hsl(220, 15%, 55%);
+      background-color: hsl(212, 45%, 89%);
+      text-align: center;
     }
   </style>
 </head>
 
 <body>
-  <div class="tile">
-     <img src="images/image-qr-code.png" alt="A QR code directed to frontendmentor.io"><br>
-    <h2>Improve your front-end skills by building projects</h2>
-    <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
+  <main>
+    <div class="tile">
+      <img src="images/image-qr-code.png" alt="A QR code directed to frontendmentor.io" class="qr"><br>
+      <h2>Improve your front-end skills by building projects</h2>
+      <p>Scan the QR code to visit Frontend Mentor and take your coding skills to the next level</p>
 
-    <div class="attribution">
-      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
-      Coded by <a href="#">Your Name Here</a>.
+      <div class="attribution">
+        Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+        Coded by <a href="#">Christopher Beezer</a>.
+      </div>
     </div>
-  </div>
-</body>
+  </main>
 </body>
 
 </html>
